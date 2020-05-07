@@ -4,7 +4,6 @@ node_js:
  
 before_script:
   - npm i scroll-to-bottom
-  
   - export PERCY_TOKEN=ee2cdb361a0188265b1e90e609844048bd10ce46100f64c1c17d9390534e2b1a
   
  npx percy exec -- node percy.js
