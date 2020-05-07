@@ -7,7 +7,7 @@ const PercyScript = require('@percy/script');
 PercyScript.run(async (page, percySnapshot) => {
   
   await page.goto('https://www.handy.la/');
-  await page.evaluate(scrollToBottom, { frequency: 100, timing: 70 });
+  await page.evaluate(scrollToBottom, { frequency: 90, timing: 70 });
   await percySnapshot('Home');
 
   
