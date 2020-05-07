@@ -1,10 +1,3 @@
 language: node_js
-
-node_js:
-  - 10
- 
-before_script:
-  - npm i scroll-to-bottom
-  - export PERCY_TOKEN=ee2cdb361a0188265b1e90e609844048bd10ce46100f64c1c17d9390534e2b1a
-  
- script: npx percy exec -- node percy.js
+rvm:	node_js:
+ - 2.2	  - 10
